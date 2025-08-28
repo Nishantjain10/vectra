@@ -14,6 +14,16 @@ from .exceptions import (
     EmbeddingError,
     ConcurrencyError
 )
+from .similarity import (
+    cosine_similarity,
+    cosine_distance,
+    euclidean_distance,
+    manhattan_distance,
+    dot_product,
+    vector_magnitude,
+    normalize_vector,
+    SimilarityMetrics
+)
 
 __all__ = [
     # Concurrency utilities
@@ -32,4 +42,13 @@ __all__ = [
     "SearchError",
     "EmbeddingError",
     "ConcurrencyError",
+    # Similarity functions
+    "cosine_similarity",
+    "cosine_distance",
+    "euclidean_distance",
+    "manhattan_distance",
+    "dot_product",
+    "vector_magnitude",
+    "normalize_vector",
+    "SimilarityMetrics",
 ]
