@@ -10,8 +10,8 @@ API_PORT = int(os.getenv("API_PORT", 8000))
 
 # Cohere API Configuration for embeddings
 COHERE_API_KEYS: List[str] = [
-    "pa6sRhnVAedMVClPAwoCvC1MjHKEwjtcGSTjWRMd",
-    "rQsWxQJOK89Gp87QHo6qnGtPiWerGJOxvdg59o5f"
+    "",
+    ""
 ]
 
 # Use environment variable if provided, otherwise fallback to provided keys
