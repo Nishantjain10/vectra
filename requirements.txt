@@ -1,0 +1,20 @@
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Data validation and serialization
+pydantic==2.5.0
+
+# Math operations for vector computations
+numpy==1.24.3
+
+# HTTP client for embeddings API
+httpx==0.25.2
+
+# Testing dependencies
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Development dependencies
+python-multipart==0.0.6
+
