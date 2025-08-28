@@ -44,4 +44,4 @@ venv.bak/
 htmlcov/
 
 # Docker
-.dockerignore
+.dockerignorer
